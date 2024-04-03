@@ -1,0 +1,21 @@
+.hero-cont-title {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Faint background color */
+    padding: 20px; /* Adjust padding as needed */
+    width: 94.5%;
+}
+
+.hero-cont-title .container {
+    max-width: 1200px; /* Adjust container width as needed */
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Center align text */
+}
+
+.hero-cont-title h1 {
+    color: #333; /* Text color */
+    font-size: 55px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+}

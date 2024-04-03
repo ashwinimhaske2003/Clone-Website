@@ -1,0 +1,67 @@
+.hero-cont-title {
+    position: absolute;
+    top: 67.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Faint background color */
+    padding: 20px; /* Adjust padding as needed */
+    width: 94.5%;
+}
+
+.hero-cont-title .container {
+    max-width: 1200px; /* Adjust container width as needed */
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Center align text */
+}
+
+.hero-cont-title h1 {
+    color: #333; /* Text color */
+    font-size: 55px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+}
+.menu-links {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+}
+
+.menu-links li {
+    list-style: none; /* Remove default list styles */
+}
+
+.menu-links a {
+    display: block;
+    padding: 10px 15px; /* Add padding to create clickable area */
+    border-radius: 5px; /* Add rounded corners */
+    font-weight: bold;
+    font-size: 16px; /* Adjust font size as needed */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+.menu-links a:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    color: #007bff; /* Change text color on hover */
+}
+
+.menu-links .urban {
+    background-color: #4682b4; /* Custom background color for Rural */
+    color: #fff; /* Text color for Rural */
+}
+
+.menu-links .rural {
+   
+    background-color: #ff8c00; /* Custom background color for Urban */
+    color: #fff; /* Text color for Urban */
+}
+
+
+.menu-links .private-lte {
+    background-color: #dc3545; /* Custom background color for Private LTE */
+    color: #fff; /* Text color for Private LTE */
+}
+img.aligncenter {
+  max-width: 100%;
+  margin: 0 0 10px;
+
+  height: auto;
+  margin-left: 180px;
+}

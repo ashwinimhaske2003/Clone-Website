@@ -1,0 +1,67 @@
+.owl-carousel .owl-item img {
+    display: inline-block;
+    max-width: 100%;
+    -webkit-transform-style: preserve-3d;
+    height: auto;
+    transform-style: preserve-3d;
+    margin-left: 329px;
+}
+/* Center align text and add padding */
+.container.wysiwyg {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style headings */
+  h3 {
+    font-size: 24px;
+    color: rgba(241, 96, 41, 1);
+  }
+  
+  /* Add space between sections */
+  .su-row {
+    margin-top: 20px;
+  }
+  
+  /* Style paragraphs */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Set max-width for content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Add border between sections */
+  .su-divider {
+    margin: 20px auto;
+  }
+  
+  /* Set column width and add space between columns */
+  .su-column {
+    width: 48%;
+    margin: 0 1%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Clearfix */
+  .su-u-clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .full-width .su-column {
+    margin-bottom: 1em;
+    margin-left: 322px;
+    
+  }
+  
+  
+ 
+  
+  
